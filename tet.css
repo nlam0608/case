@@ -1,0 +1,32 @@
+table,tr,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+h1{
+   color: white;
+}
+table{
+    width: 600px;
+    height: 400px;
+}
+div{
+    text-align: center;
+    margin: 0 auto;
+    width: 600px;
+}
+.table2{
+    height: min-content;
+}
+input{
+    width: 95%;
+}
+select,option{
+    width: 95%;
+}
+.tr1{
+    background-color: aquamarine;
+}
+body{
+    background-image: url("https://danchoioto.vn/wp-content/uploads/2019/04/gia-xe-bugatti-chiron-e1592642572684.jpg");
+}

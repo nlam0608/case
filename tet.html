@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="tet.css">
+
+</head>
+<body>
+<form onsubmit="addName()">
+    <div>
+        <table class="table1">
+            <tr class="tr1">
+                <td colspan="5"><h1>Quản lý sản phẩm</h1></td>
+            </tr>
+            <tr>
+                <td colspan="5">Tên Sản Phẩm</td>
+            </tr>
+            <tr>
+                <td colspan="5"><input id="name" name="name" type="text"></td>
+            </tr>
+            <tr>
+                <td colspan="5">Mã Sản Phẩm</td>
+            </tr>
+            <tr>
+                <td colspan="5"><input id="code" name="code" type="text"></td>
+            </tr>
+            <tr>
+                <td colspan="5">Giá Sản Phẩm</td>
+            </tr>
+            <tr>
+                <td colspan="5"><input id="price" name="price" type="text"></td>
+            </tr>
+            <tr>
+                <td colspan="5">Số Lượng Sản Phẩm</td>
+            </tr>
+            <tr>
+                <td colspan="5"><input id="number" name="number" type="text"></td>
+            </tr>
+            <tr>
+                <td colspan="5">Nhà Sản Xuất</td>
+
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <select id="content" >
+                        <option >---Chọn nhà Sản Xuất---</option>
+                        <option >Maybach</option>
+                        <option >BMW</option>
+                        <option >Rolls-Royce</option>
+                        <option >audi</option>
+                        <option >Loại khác</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><button type="submit" value="submit" >Submit</button></td>
+            </tr>
+        </table>
+    </div>
+
+</form>
+    <div >
+        <table class="table2">
+            <tr class="tr1">
+                <td colspan="6"><h2>Kho Sản Phẩm</h2></td>
+            </tr>
+            <tr>
+                <th>Tên sp</th>
+                <th>Mã sp</th>
+                <th>Giá sp</th>
+                <th>Số lượng</th>
+                <th>Nhà xản suất</th>
+                </td>
+            </tr>
+            <div id="display"></div>
+        </table>
+    </div>
+
+<script src="tet.js"></script>
+</body>
+</html>
